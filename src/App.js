@@ -1,7 +1,8 @@
 import "./App.css";
+import Maket from "../src/component/Maket";
 
 function App() {
-  return <div className="App">bbbbbbbbbbbbbbbbbbbbbbbarev</div>;
+  <Maket />;
 }
 
 export default App;

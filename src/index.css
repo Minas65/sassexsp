@@ -51,7 +51,8 @@ footer {
   background: cyan;
 }
 
-@media screen and (max-width: 760) {
+@media screen and (max-width: 800
+) {
   aside {
     width: 100%;
   }
