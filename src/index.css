@@ -51,8 +51,7 @@ footer {
   background: cyan;
 }
 
-@media screen and (max-width: 800
-) {
+@media screen and (max-width: 900) {
   aside {
     width: 100%;
   }
@@ -61,5 +60,37 @@ footer {
     height: 700px;
   }
 }
+nav {
+  height: 80%;
+}
 
+a {
+  margin-top: 35px;
+}
+
+nav > ul > li > a:hover {
+  cursor: pointer;
+}
+
+.g-c {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr; /* Define the columns */
+            grid-gap: 20px; /* Define the gap between grid items */
+        }
+        .g-i {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+  .f-c {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr; /* Define the columns */
+            grid-gap: 20px; /* Define the gap between grid items */
+        }
+        .f-i {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
 /*# sourceMappingURL=index.css.map */
